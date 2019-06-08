@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {},
   "devDependencies": {
-    "cloudmersive-convert-api-client": "^2.0.1"
+    "cloudmersive-convert-api-client": "^2.0.2"
   },
   "dependencies": {}
 }
