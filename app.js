@@ -21,8 +21,15 @@ var inputFile2 = Buffer.from(fs.readFileSync("spreadsheet2.xlsx").buffer); // Fi
 var callback = function(error, data, response) {
   if (error) {
     console.error(error);
-  } else {
-    fs.writeFile("./output.xlsx", data);
+  } else 
+  {
+    fs.writeFile("./output.xlsx", data, function(err) {
+        if(err) {
+            return console.log(err);
+        }
+    
+        console.log("The file was saved!");
+    });
     console.log('API called successfully. Returned data: ' + data);
   }
 };
