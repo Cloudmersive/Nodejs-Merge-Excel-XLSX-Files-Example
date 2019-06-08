@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-merge-excel-xlsx-files-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloudmersive/Nodejs-Merge-Excel-XLSX-Files-Example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cloudmersive/Nodejs-Merge-Excel-XLSX-Files-Example/issues"
+  },
+  "homepage": "https://github.com/Cloudmersive/Nodejs-Merge-Excel-XLSX-Files-Example#readme"
+}
