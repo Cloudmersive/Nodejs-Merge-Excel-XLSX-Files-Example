@@ -1,5 +1,7 @@
 console.log("Hello World");
 
+const fs = require('fs');
+
 var CloudmersiveConvertApiClient = require('cloudmersive-convert-api-client');
 var defaultClient = CloudmersiveConvertApiClient.ApiClient.instance;
 
