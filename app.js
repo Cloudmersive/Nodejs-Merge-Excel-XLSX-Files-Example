@@ -30,7 +30,7 @@ var callback = function(error, data, response) {
     
         console.log("The file was saved!");
     });
-    console.log('API called successfully. Returned data: ' + data);
+    console.log('API called successfully.');
   }
 };
 apiInstance.mergeDocumentXlsx(inputFile1, inputFile2, callback);
